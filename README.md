@@ -12,7 +12,7 @@
 - Jenis Font Utama  : Poppins
 
 ## Sprint List
-- Sprint 1 ----> Navbar & Footer (This Sprint)
+- Sprint 1 ----> Navbar & Footer (This sprint)
 - Sprint 2 ----> Login & Register
 - Sprint 3 ----> Cart & Order History
 - Sprint 4 ----> Checkout Form
@@ -29,10 +29,11 @@
 - Add to Cart
 - Checkout Form
 - Order History
-- Admin CRUD (with Login)
-- User Account Management (Admin)
-- Product List Management (Admin)
-- Order List Management (Admin)
+- Admin Dashboard
+  - Admin Login (Admin Role Only) 
+  - User Account Management
+  - Product List Management
+  - Order List Management
 
 ## Technology
 1. HTML
