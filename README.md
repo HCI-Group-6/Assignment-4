@@ -3,7 +3,7 @@
 ## Link Hosting
 
 ## Web Specification
-- Nama Website   oumy Coffee
+- Nama Website      : Youmy Coffee
 - Kategori Website  : Coffee Shop
 - Jenis Website     : E-Commerce
 - Tujuan Website    : Menjual dan memasarkan produk coffee
@@ -12,7 +12,7 @@
 - Jenis Font Utama  : Poppins
 
 ## Sprint List
-- Sprint 1 ----> Navbar & Footer (Sprint saat ini)
+- Sprint 1 ----> Navbar & Footer (This Sprint)
 - Sprint 2 ----> Login & Register
 - Sprint 3 ----> Cart & Order History
 - Sprint 4 ----> Checkout Form
