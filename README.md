@@ -1,6 +1,7 @@
 # Web Project with Client
 
 ## Link Hosting
+URL : https://gadgetnf0.000webhostapp.com/
 
 ## Web Specification
 - Nama Website      : GadgetNFO
