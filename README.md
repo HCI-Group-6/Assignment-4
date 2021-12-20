@@ -16,10 +16,9 @@
 - Sprint 2 ----> Login & Register
 - Sprint 3 ----> Cart & Order History
 - Sprint 4 ----> Checkout Form
-- Sprint 5 ----> Checkout Confirm Form
-- Sprint 6 ----> Admin Page Home
-- Sprint 7 ----> Admin Page Table Management
-- Sprint 8 ----> Bug Fix
+- Sprint 5 ----> Admin Page Home
+- Sprint 6 ----> Admin Page Table Management
+- Sprint 7 ----> Bug Fix & Finishing
 
 ## List of Features
 - Login & Register
