@@ -26,7 +26,7 @@
     <!-- CSS LINK -->
 </head>
 
-<body style="background-color: rgb(97, 97, 97);">
+<body>
 
     <!-- Awal Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -47,18 +47,7 @@
                     <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hi, Client</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown04">
-                            <a class="dropdown-item" href="#">Admin</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Cart</a>
-                            <a class="dropdown-item" href="#">Checkout</a>
-                            <a class="dropdown-item" href="#">Order History</a>
-                            <a class="dropdown-item" href="#">Logout</a>
-                        </div>
-                    </li>
+                    <li class="nav-item"><a href="php/login.html" class="nav-link">Login</a></li>
                     <li class="nav-item cart">
                         <a href="#" class="nav-link">
                             <span class="icon icon-shopping_cart"></span>
@@ -71,8 +60,258 @@
     <!-- Akhir Navbar-->
 
     <!-- Awal Carousel -->
-    <section style="height: 3000px;">
+    <section class="home-slider owl-carousel" data-touch='false'>
+        <!-- Slide 01 -->
+        <div class="slider-item" style="background-image: url(images/background/bg_01.jpg);" data-touch='false'>
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
+                    <div class="col-md-8 col-sm-12 text-center ftco-animate">
+                        <h1 class="mb-4">Bermacam Gadget Sesuai Dengan Kebutuhanmu</h1>
+                        <p class="mb-4 mb-md-5">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus molestiae aperiam fugit!
+                        </p>
+                        <p><a href="#menu" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 02 -->
+        <div class="slider-item" style="background-image: url(images/background/bg_02.jpg);">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+                    <div class="col-md-8 col-sm-12 text-center ftco-animate">
+                        <h1 class="mb-4">Jaminan Original atau Uang Kembali!</h1>
+                        <p class="mb-4 mb-md-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quia exercitationem voluptas!
+                        </p>
+                        <p><a href="#menu" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 02 -->
+        <div class="slider-item" style="background-image: url(images/background/bg_03.jpg);">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+                    <div class="col-md-8 col-sm-12 text-center ftco-animate">
+                        <h1 class="mb-4">Pelayanan Berkualitas Tinggi dan Support yang Baik</h1>
+                        <p class="mb-4 mb-md-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, delectus facere! Quisquam.</p>
+                        <p><a href="#menu" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Carousel -->
+
+    <!-- Awal About -->
+    <section class="ftco-about d-md-flex" id="about">
+        <div class="one-half img" style="background-image: url(images/background/bg_04.jpg);"></div>
+        <div class="one-half ftco-animate">
+            <div class="heading-section ftco-animate ">
+                <h2 class="mb-4">Tentang Kami</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, beatae delectus incidunt facilis consequatur recusandae magni assumenda, quod nam et repellat quam, ab non ratione culpa. Facere tempora quasi impedit nulla ullam debitis eveniet
+                nesciunt dolorum voluptas modi iste, ea voluptatem vel dolores consequatur quae adipisci laborum dicta, dolorem quos atque nobis molestias. Vel vitae exercitationem voluptatibus nobis obcaecati, nihil nostrum mollitia neque molestiae odio
+                at! Nostrum veritatis nobis voluptates impedit, nemo ab odit culpa aut rem temporibus dignissimos a quas omnis ea minus laudantium amet quisquam dolore possimus iure iusto esse vitae? Consectetur explicabo quaerat dolore inventore, error
+                unde?
+            </p>
+            <div>
+            </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Awal Services -->
+    <section class="ftco-section ftco-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 ftco-animate">
+                    <div class="media d-block text-center block-6 services">
+                        <div class="icon d-flex justify-content-center align-items-center mb-5">
+                            <img src="images/icon/icon-trophy.png" style="filter: invert(75%) sepia(73%) saturate(309%) hue-rotate(123deg) brightness(80%) contrast(86%);">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading">Trophy</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis eligendi fugit ea ipsum, sunt optio?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="media d-block text-center block-6 services">
+                        <div class="icon d-flex justify-content-center align-items-center mb-5">
+                            <img src="images/icon/icon-awards.png" style="filter: invert(75%) sepia(73%) saturate(309%) hue-rotate(123deg) brightness(80%) contrast(86%);">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading">Awards</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis eligendi fugit ea ipsum, sunt optio?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="media d-block text-center block-6 services">
+                        <div class="icon d-flex justify-content-center align-items-center mb-5">
+                            <img src="images/icon/icon-safety.png" style="filter: invert(75%) sepia(73%) saturate(309%) hue-rotate(123deg) brightness(80%) contrast(86%);">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading">Safety</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis eligendi fugit ea ipsum, sunt optio?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Services -->
+
+    <!-- Awal Daftar Menu -->
+    <section class="ftco-section" id="menu">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section ftco-animate text-center">
+                    <h2 class="mb-4">Daftar Product</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus excepturi veniam repudiandae itaque, fugiat voluptatibus</p>
+                </div>
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <form method="post">
+                        <div class="menu-entry">
+                            <a href="#" class="img" style="background-image: url(images/products/product_1.png)"></a>
+                            <div class="text text-center pt-4">
+                                <h3>
+                                    <a href="#">Product 1</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="price"><span>Rp245.999</span></p>
+                                <button type="submit" name="addtocart" class="btn btn-primary btn-outline-primary">Add to Cart</button>
+                                <input type="hidden" name="product_id" value="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-3">
+                    <form method="post">
+                        <div class="menu-entry">
+                            <a href="#" class="img" style="background-image: url(images/products/product_2.png)"></a>
+                            <div class="text text-center pt-4">
+                                <h3>
+                                    <a href="#">Product 2</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="price"><span>Rp267.000</span></p>
+                                <button type="submit" name="addtocart" class="btn btn-primary btn-outline-primary">Add to Cart</button>
+                                <input type="hidden" name="product_id" value="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-3">
+                    <form method="post">
+                        <div class="menu-entry">
+                            <a href="#" class="img" style="background-image: url(images/products/product_3.png)"></a>
+                            <div class="text text-center pt-4">
+                                <h3>
+                                    <a href="#">Product 3</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="price"><span>Rp275.000</span></p>
+                                <button type="submit" name="addtocart" class="btn btn-primary btn-outline-primary">Add to Cart</button>
+                                <input type="hidden" name="product_id" value="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-3">
+                    <form method="post">
+                        <div class="menu-entry">
+                            <a href="#" class="img" style="background-image: url(images/products/product_4.png)"></a>
+                            <div class="text text-center pt-4">
+                                <h3>
+                                    <a href="#">Product 4</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="price"><span>Rp280.999</span></p>
+                                <button type="submit" name="addtocart" class="btn btn-primary btn-outline-primary">Add to Cart</button>
+                                <input type="hidden" name="product_id" value="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Akhir Daftar Menu -->
+
+    <!-- Awal Contact Information -->
+    <section class="ftco-section contact-section" style="background-color: #e8ffff;" id="contact">
+        <div class="container mt-5">
+            <div class="row block-9">
+                <div class="col-md-4 contact-info ftco-animate">
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <h2 class="h4">Contact Information</h2>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <p><span>Address :</span> Pondok Kelapa, Jakarta Timur. 13450</p>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <p><span>Phone :</span> +6287887152775</a>
+                            </p>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <p><span>Email :</span> chiko.tridipa1@gmail.com</p>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <p><span>Website :</span> youmycoffee.site</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6 ftco-animate">
+                    <form action="#" class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Akhir Contact Information -->
 
