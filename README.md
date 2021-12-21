@@ -38,12 +38,13 @@ URL : https://gadgetnf0.000webhostapp.com/
 
 ## Client Decision
 - Sprint 1 ----> Design 2
-- Sprint 2 ----> 
+- Sprint 2 ----> Design 2
 - Sprint 3 ----> 
 - Sprint 4 ----> 
 - Sprint 5 ----> 
 - Sprint 6 ----> 
 - Sprint 7 ----> 
+- Sprint 8 ----> 
 
 ## Technology
 1. HTML
