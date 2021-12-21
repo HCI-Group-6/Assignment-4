@@ -35,7 +35,8 @@ URL : https://gadgetnf0.000webhostapp.com/
 - Sprint 6 ----> Admin Login
 - Sprint 7 ----> Admin Page Home
 - Sprint 8 ----> Admin Page Table Management
-- Sprint 9 ----> Bug Fix & Finishing
+- Sprint 9 ----> Adding Backend (PHP)
+- Sprint 10 ---> Bug Fix & Finishing
 
 ## Client Decision
 - Sprint 1 ----> Design 2
