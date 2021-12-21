@@ -28,16 +28,6 @@ URL : https://gadgetnf0.000webhostapp.com/
 
 ## Sprint List
 - Sprint 1 ----> Navbar & Footer
-- Sprint 2 ----> Login & Register
-- Sprint 3 ----> Cart & Order History (This sprint)
-- Sprint 4 ----> Checkout Form
-- Sprint 5 ----> Admin Login
-- Sprint 6 ----> Admin Page Home
-- Sprint 7 ----> Admin Page Table Management
-- Sprint 8 ----> Bug Fix & Finishing
-
-## Client Decision
-- Sprint 1 ----> Navbar & Footer
 - Sprint 2 ----> Home Page
 - Sprint 3 ----> Login & Register
 - Sprint 4 ----> Cart & Order History
