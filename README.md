@@ -44,6 +44,7 @@ URL : https://gadgetnf0.000webhostapp.com/
 - Sprint 5 ----> 
 - Sprint 6 ----> 
 - Sprint 7 ----> 
+- Sprint 8 ----> 
 
 ## Technology
 1. HTML
