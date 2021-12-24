@@ -31,8 +31,8 @@ URL : https://gadgetnf0.000webhostapp.com/
 - Sprint 2 ----> Home Page
 - Sprint 3 ----> Login & Register
 - Sprint 4 ----> Cart & Order History
-- Sprint 5 ----> Checkout Form (This sprint)
-- Sprint 6 ----> Admin Login
+- Sprint 5 ----> Checkout Form
+- Sprint 6 ----> Admin Login (This sprint)
 - Sprint 7 ----> Admin Page Home
 - Sprint 8 ----> Admin Page Table Management
 - Sprint 9 ----> Adding Backend (PHP)
@@ -44,7 +44,7 @@ URL : https://gadgetnf0.000webhostapp.com/
 - Sprint 3 ----> Design 1
 - Sprint 4 ----> Design 1
 - Sprint 5 ----> Design 2
-- Sprint 6 ----> 
+- Sprint 6 ----> Design 1
 - Sprint 7 ----> 
 - Sprint 8 ----> 
 
