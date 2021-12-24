@@ -1,0 +1,177 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title>Admin | Product List</title>
+    <link rel="icon" href="images/logo/admin_logo.png">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="assets/vendor/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/solid.min.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/brands.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/datatables/datatables.min.css" rel="stylesheet">
+    <link href="assets/css/master.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Awal Navbar Horizontal-->
+        <nav id="sidebar" class="active">
+            <div class="sidebar-header">
+                <img src="../images/logo/logo.svg" alt="bootraper logo" class="app-logo">
+                <h4 class="navbarLogo1">Gadget<h4 class="navbarLogo2">NFO</h4>
+                </h4>
+            </div>
+            <ul class="list-unstyled components text-secondary">
+                <li>
+                    <a href="#"><i class="fas fa-home"></i> Dashboard</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-user-friends"></i>Users</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-list"></i>Produk</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-cart-plus"></i> Order List</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Akhir Navbar Horizontal-->
+
+        <div id="body" class="active">
+
+            <!-- Awal Navbar Vertical -->
+            <nav class="navbar navbar-expand-lg navbar-white bg-white">
+                <button type="button" id="sidebarCollapse" class="btn btn-light">
+                    <i class="fas fa-bars"></i><span></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ms-auto">
+
+
+                        <!-- Awal Shortcut -->
+                        <li class="nav-item dropdown">
+                            <div class="nav-dropdown">
+                                <a href="#" id="nav1" class="nav-item nav-link dropdown-toggle text-secondary"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-link"></i> <span> Shortcut</span> <i style="font-size: .8em;"
+                                        class="fas fa-caret-down"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end nav-link-menu" aria-labelledby="nav1">
+                                    <ul class="nav-list">
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-home"></i>
+                                                Halaman Utama</a></li>
+                                        <div class="dropdown-divider"></div>
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-user-plus"></i> Tambah
+                                                User</a></li>
+                                        <div class="dropdown-divider"></div>
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-folder-plus"></i> Tambah
+                                                Produk</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Akhir Shortcut -->
+
+
+                        <!-- Awal Profile -->
+                        <li class="nav-item dropdown">
+                            <div class="nav-dropdown">
+                                <a href="#" id="nav2" class="nav-item nav-link dropdown-toggle text-secondary"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-user"></i> <span>
+                                        Client HCI
+                                    </span> <i style="font-size: .8em;" class="fas fa-caret-down"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end nav-link-menu">
+                                    <ul class="nav-list">
+                                        <li><a href="#>" class="dropdown-item"><i class="fas fa-address-card"></i> Edit
+                                                Profile</a></li>
+                                        <div class="dropdown-divider"></div>
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-sign-out-alt"></i>
+                                                Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Awal Profile -->
+
+
+                    </ul>
+                </div>
+            </nav>
+            <!-- Akhir Navbar Vertical -->
+
+            <div class="content">
+                <div class="container">
+                    <div class="page-title">
+                        <h3>Product List
+                            <a href="#" class="btn btn-sm btn-outline-primary float-end"><i
+                                    class="fas fa-folder-plus"></i> Tambah Produk</a>
+                        </h3>
+                    </div>
+                    <div class="box box-primary">
+                        <div class="box-body">
+                            <table width="100%" class="table table-hover" id="dataTables-example">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Gambar Produk</th>
+                                        <th>Nama Produk</th>
+                                        <th>Deskripsi Produk</th>
+                                        <th>Harga Produk</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+
+                                <!-- AWAL BODY TABEL -->
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            5
+                                        </td>
+                                        <td><img class="productImage" src="../images/products/product_1.png" alt="">
+                                        </td>
+                                        <td>
+                                            Sony Tablet
+                                        </td>
+                                        <td>
+                                            Lorem ipsum dolor sit amet.
+                                        </td>
+                                        <td>Rp
+                                            2.245.000
+                                        </td>
+                                        <td class="text-end">
+                                            <a href="#"
+                                                class="btn btn-outline-info btn-rounded"><i class="fas fa-pen"></i></a>
+                                            <a href="#"
+                                                class="btn btn-outline-danger btn-rounded"><i
+                                                    class="fas fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <!-- AWAL BODY TABEL -->
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/datatables/datatables.min.js"></script>
+<script src="assets/js/initiate-datatables.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>
