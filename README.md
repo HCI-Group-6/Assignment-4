@@ -17,9 +17,10 @@ URL : https://gadgetnf0.000webhostapp.com/
 - Login with Google
 - User Role (Guest & Admin)
 - Carousel
-- Add to Cart
-- Checkout Form
-- Order History
+- Buy Stuff (Primary Features)
+  - Add to Cart
+  - Checkout Form
+  - Order History
 - Admin Dashboard
   - Admin Login (Admin Role Only) 
   - User Account Management
