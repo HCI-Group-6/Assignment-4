@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Admin | Edit Account</title>
+    <link rel="icon" href="../images/logo/admin_logo.png">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="../assets/vendor/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="../assets/vendor/fontawesome/css/solid.min.css" rel="stylesheet">
+    <link href="../assets/vendor/fontawesome/css/brands.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/master.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Awal Navbar Horizontal -->
+        <nav id="sidebar" class="active">
+            <div class="sidebar-header">
+                <img src="../../images/logo/logo.svg" alt="bootraper logo" class="app-logo">
+                <h4 class="navbarLogo1">Gadget<h4 class="navbarLogo2">NFO</h4>
+                </h4>
+            </div>
+            <ul class="list-unstyled components text-secondary">
+                <li>
+                    <a href="#"><i class="fas fa-home"></i> Dashboard</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-user-friends"></i>Users</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-list"></i>Produk</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-cart-plus"></i> Order List</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Akhir Navbar Horizontal -->
+
+        <div id="body" class="active">
+
+            <!-- Awal Navbar Vertical -->
+            <nav class="navbar navbar-expand-lg navbar-white bg-white">
+                <button type="button" id="sidebarCollapse" class="btn btn-light">
+                    <i class="fas fa-bars"></i><span></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ms-auto">
+
+
+                        <!-- Awal Shortcut -->
+                        <li class="nav-item dropdown">
+                            <div class="nav-dropdown">
+                                <a href="#" id="nav1" class="nav-item nav-link dropdown-toggle text-secondary"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-link"></i> <span> Shortcut</span> <i style="font-size: .8em;"
+                                        class="fas fa-caret-down"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end nav-link-menu" aria-labelledby="nav1">
+                                    <ul class="nav-list">
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-home"></i>
+                                                Halaman Utama</a></li>
+                                        <div class="dropdown-divider"></div>
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-user-plus"></i> Tambah
+                                                User</a></li>
+                                        <div class="dropdown-divider"></div>
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-folder-plus"></i> Tambah
+                                                Produk</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Akhir Shortcut -->
+
+
+                        <!-- Awal Profile -->
+                        <li class="nav-item dropdown">
+                            <div class="nav-dropdown">
+                                <a href="#" id="nav2" class="nav-item nav-link dropdown-toggle text-secondary"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-user"></i> <span>
+                                        Client HCI
+                                    </span> <i style="font-size: .8em;" class="fas fa-caret-down"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end nav-link-menu">
+                                    <ul class="nav-list">
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-address-card"></i> Edit
+                                                Profile</a></li>
+                                        <div class="dropdown-divider"></div>
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-sign-out-alt"></i>
+                                                Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Awal Profile -->
+
+
+                    </ul>
+                </div>
+            </nav>
+            <!-- Akhir Navbar Vertical -->
+
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <div class="card">
+                                <div class="card-header">Tambah Akun</div>
+                                <div class="card-body">
+
+
+                                    <form class="needs-validation" novalidate accept-charset="utf-8" method="post">
+                                        <div class="row g-2">
+                                            <div class="mb-3 col-md-6">
+                                                <label class="form-label">Nama Depan</label>
+                                                <input type="text" class="form-control" value="" name="namadepan"
+                                                    required>
+                                            </div>
+
+                                            <div class="mb-3 col-md-6">
+                                                <label class="form-label">Nama Belakang</label>
+                                                <input type="text" class="form-control" value="" name="namabelakang"
+                                                    required>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Email</label>
+                                            <input type="email" class="form-control" value="" name="email" required>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Nomor Telepon</label>
+                                            <input type="text" class="form-control" value="" name="notelp" required>
+                                        </div>
+
+                                        <div class="row g-2">
+                                            <div class="mb-3 col-md-6">
+                                                <label class="form-label">Username</label>
+                                                <input type="text" class="form-control" value="" name="username"
+                                                    required>
+                                            </div>
+
+                                            <div class="mb-3 col-md-6">
+                                                <label for="state" class="form-label">Role</label>
+                                                <select name="role" class="form-select" required>
+                                                    <option value="Guest">Guest</option>
+                                                    <option value="Admin">Admin</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row g-2">
+                                            <div class="mb-3 col-md-6">
+                                                <label class="form-label">Password</label>
+                                                <input type="password" class="form-control" name="password" required>
+                                            </div>
+
+                                            <div class="mb-3 col-md-6">
+                                                <label class="form-label">Password Confirm</label>
+                                                <input type="password" class="form-control" name="passwordconfirm"
+                                                    required>
+                                            </div>
+                                        </div>
+
+                                        <a href="../users.php" class="btn btn-warning"><i class="fas fa-reply"></i>
+                                            Back</a>
+                                        <button type="submit" name="addUser" class="btn btn-primary"><i
+                                                class="fas fa-plus"></i> Tambah Akun</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/form-validator.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Admin | Edit Order Status</title>
+    <link rel="icon" href="../images/logo/admin_logo.png">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="../assets/vendor/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="../assets/vendor/fontawesome/css/solid.min.css" rel="stylesheet">
+    <link href="../assets/vendor/fontawesome/css/brands.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/master.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Awal Navbar Horizontal -->
+        <nav id="sidebar" class="active">
+            <div class="sidebar-header">
+                <img src="../../images/logo/logo.svg" alt="bootraper logo" class="app-logo">
+                <h4 class="navbarLogo1">Gadget<h4 class="navbarLogo2">NFO</h4>
+                </h4>
+            </div>
+            <ul class="list-unstyled components text-secondary">
+                <li>
+                    <a href="#"><i class="fas fa-home"></i> Dashboard</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-user-friends"></i>Users</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-list"></i>Produk</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-cart-plus"></i> Order List</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Akhir Navbar Horizontal -->
+
+        <div id="body" class="active">
+
+            <!-- Awal Navbar Vertical -->
+            <nav class="navbar navbar-expand-lg navbar-white bg-white">
+                <button type="button" id="sidebarCollapse" class="btn btn-light">
+                    <i class="fas fa-bars"></i><span></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ms-auto">
+
+
+                        <!-- Awal Shortcut -->
+                        <li class="nav-item dropdown">
+                            <div class="nav-dropdown">
+                                <a href="#" id="nav1" class="nav-item nav-link dropdown-toggle text-secondary"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-link"></i> <span> Shortcut</span> <i style="font-size: .8em;"
+                                        class="fas fa-caret-down"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end nav-link-menu" aria-labelledby="nav1">
+                                    <ul class="nav-list">
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-home"></i>
+                                                Halaman Utama</a></li>
+                                        <div class="dropdown-divider"></div>
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-user-plus"></i> Tambah
+                                                User</a></li>
+                                        <div class="dropdown-divider"></div>
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-folder-plus"></i> Tambah
+                                                Produk</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Akhir Shortcut -->
+
+
+                        <!-- Awal Profile -->
+                        <li class="nav-item dropdown">
+                            <div class="nav-dropdown">
+                                <a href="#" id="nav2" class="nav-item nav-link dropdown-toggle text-secondary"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-user"></i> <span>
+                                        Client HCI
+                                    </span> <i style="font-size: .8em;" class="fas fa-caret-down"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end nav-link-menu">
+                                    <ul class="nav-list">
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-address-card"></i> Edit
+                                                Profile</a></li>
+                                        <div class="dropdown-divider"></div>
+                                        <li><a href="#" class="dropdown-item"><i class="fas fa-sign-out-alt"></i>
+                                                Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Awal Profile -->
+
+
+                    </ul>
+                </div>
+            </nav>
+            <!-- Akhir Navbar Vertical -->
+
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <div class="card">
+                                <div class="card-header">Edit Order Status</div>
+                                <div class="card-body">
+
+                                    <form class="needs-validation" novalidate accept-charset="utf-8" method="post"
+                                        enctype="multipart/form-data">
+                                        <div class="row g-2">
+                                            <div class="mb-3 col-md-8">
+                                                <fieldset disabled>
+                                                    <label class="form-label">Nama Pembeli</label>
+                                                    <input type="text" class="form-control" value="Client HCI"
+                                                        name="namapembeli" required>
+                                                </fieldset>
+                                            </div>
+
+                                            <div class="mb-3 col-md-2 form-group">
+                                                <fieldset disabled>
+                                                    <label for="disabledTextInput" class="form-label">Order ID</label>
+                                                    <input type="text" id="disabledTextInput" class="form-control"
+                                                        placeholder="1">
+                                                </fieldset>
+                                            </div>
+
+                                            <div class="mb-3 col-md-2 form-group">
+                                                <fieldset disabled>
+                                                    <label for="disabledTextInput" class="form-label">User ID</label>
+                                                    <input type="text" id="disabledTextInput" class="form-control"
+                                                        placeholder="2">
+                                                </fieldset>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <fieldset disabled>
+                                                <label class="form-label">Alamat Lengkap</label>
+                                                <textarea name="alamatlengkap" class="form-control" rows="3"
+                                                    required>Jl. Kebangkitan No.99</textarea>
+                                            </fieldset>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <fieldset disabled>
+                                                <label>Order List</label>
+                                                <select multiple class="form-control" id="exampleFormControlSelect1">
+                                                    <option>2 x Asus Laptop</option>
+                                                    <option>5 x Sony Tab</option>
+                                                    <option>6 x DBe Headphone</option>
+                                                    <option>1 x Fuji Camera</option>
+                                                </select>
+                                            </fieldset>
+                                        </div>
+
+                                        <div class="row g-2">
+                                            <div class="mb-3 col-md-6">
+                                                <fieldset disabled>
+                                                    <label class="form-label">Nomor Telepon</label>
+                                                    <input type="text" class="form-control" value="0878123671273"
+                                                        name="notelp" required>
+                                                </fieldset>
+                                            </div>
+
+                                            <div class="mb-3 col-md-6">
+                                                <fieldset disabled>
+                                                    <label class="form-label">Email</label>
+                                                    <input type="email" class="form-control" value="abizar@gmail.com"
+                                                        name="email" required>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+
+                                        <div class="row g-2">
+                                            <div class="mb-3 col-md-3">
+                                                <fieldset disabled>
+                                                    <label class="form-label">Total Harga</label>
+                                                    <input type="text" class="form-control" value="Rp9.987.000"
+                                                        name="total" required>
+                                                </fieldset>
+                                            </div>
+
+                                            <div class="mb-3 col-md-9">
+                                                <fieldset disabled>
+                                                    <label class="form-label">Path Bukti Pembayaran</label>
+                                                    <input type="text" class="form-control"
+                                                        value="/images/orderpayment/order_3.jpg" name="buktipembayaran"
+                                                        required>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+
+                                        <div class="row g-2">
+                                            <div class="mb-3 col-md-4">
+                                                <label class="form-label">Bukti Pembayaran</label> <br>
+                                                <a href="#" target="_blank" class="badge bg-success">Lihat Gambar </a>
+                                            </div>
+
+                                            <div class="mb-3 col-md-8">
+                                                <label>Ubah Status Order</label>
+                                                <select name="status" class="form-select" required>
+                                                    <option value="Pending">01. Pending</option>
+                                                    <option value="Tidak Valid">2f. Tidak Valid</option>
+                                                    <option value="Terverifikasi">2t. Terverifikasi</option>
+                                                    <option value="Dalam Proses">03. Dalam Proses</option>
+                                                    <option value="Dalam Pengiriman">04. Dalam Pengiriman</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <a href="#" class="btn btn-warning"><i class="fas fa-reply"></i>
+                                            Back</a>
+                                        <button type="submit" name="editOrderStatus" class="btn btn-primary"><i
+                                                class="fas fa-save"></i> Save</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/form-validator.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>

@@ -27,7 +27,7 @@ URL : https://gadgetnf0.000webhostapp.com/
   - Order List Management
 
 ## Sprint List
-- Sprint 1 ----> Navbar & Footer (This sprint)
+- Sprint 1 ----> Navbar & Footer
 - Sprint 2 ----> Home Page
 - Sprint 3 ----> Login & Register
 - Sprint 4 ----> Cart & Order History
@@ -40,13 +40,13 @@ URL : https://gadgetnf0.000webhostapp.com/
 
 ## Client Decision
 - Sprint 1 ----> Design 2
-- Sprint 2 ----> 
-- Sprint 3 ----> 
-- Sprint 4 ----> 
-- Sprint 5 ----> 
-- Sprint 6 ----> 
-- Sprint 7 ----> 
-- Sprint 8 ----> 
+- Sprint 2 ----> Design 2
+- Sprint 3 ----> Design 1
+- Sprint 4 ----> Design 1
+- Sprint 5 ----> Design 2
+- Sprint 6 ----> Design 1
+- Sprint 7 ----> Design 1
+- Sprint 8 ----> Design 2
 
 ## Technology
 1. HTML
