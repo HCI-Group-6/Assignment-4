@@ -1,0 +1,9 @@
+.success-Alert {
+    color: lime;
+    margin: -15px 0 10px 0;
+}
+
+.failed-Alert {
+    color: rgb(255, 118, 118);
+    margin: -15px 0 10px 0;
+}
