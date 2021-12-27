@@ -1,5 +1,13 @@
 # Web Project with Client
 
+## Group Members
+- Chiko Tridipa Siswoyo 
+  > 1313620015
+- Alfathan Ahnaf
+  > 1313620037
+- M. Tamam Syaifullah A.
+  > 1313620024
+
 ## Link Hosting
 URL : https://gadgetnf0.000webhostapp.com/
 
