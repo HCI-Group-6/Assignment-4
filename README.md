@@ -76,10 +76,12 @@ User juga dapat memantau order history pada halaman order history. Maka jika dap
 
 ## User Manual
 For Guest : [user-manual-guest.pdf](https://github.com/HCI-Group-6/Assignment-4/raw/main/document-spec/user-manual-guest.pdf)
+
 For Admin : [user-manual-admin.pdf](https://github.com/HCI-Group-6/Assignment-4/raw/main/document-spec/user-manual-admin.pdf)
 
 ## Record of User Testing
 Video Link  : https://youtu.be/3RWBW8Yfn4Q
+
 Subtitle    : -
 
 ## Website Demonstration
