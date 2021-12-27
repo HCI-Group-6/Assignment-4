@@ -82,10 +82,7 @@ For Admin : [user-manual-admin.pdf](https://github.com/HCI-Group-6/Assignment-4/
 ## Record of User Testing
 Video Link  : https://youtu.be/3RWBW8Yfn4Q
 
-Subtitle    : -
+Subtitle    : [subtitle-naration.md](https://github.com/HCI-Group-6/Assignment-4/blob/main/document-spec/subtitle-naration.md)
 
 ## Website Demonstration
-Video Link  : -
-
-## Client Review
-Agreement Letter : -
+Video Link  : https://youtu.be/ED9yRrDOC6Q
