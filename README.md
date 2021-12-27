@@ -1,6 +1,6 @@
 # Web Project with Client
 
-## Group Members
+## Group 6 Members
 - Chiko Tridipa Siswoyo 
   > 1313620015
 - Alfathan Ahnaf
