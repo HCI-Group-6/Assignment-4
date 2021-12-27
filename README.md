@@ -1,5 +1,13 @@
 # Web Project with Client
 
+## Group 6 Members
+- Chiko Tridipa Siswoyo 
+  > 1313620015
+- Alfathan Ahnaf
+  > 1313620037
+- M. Tamam Syaifullah A.
+  > 1313620024
+
 ## Link Hosting
 URL : https://gadgetnf0.000webhostapp.com/
 
@@ -65,3 +73,19 @@ Perancangan website ini bertujuan untuk memasarkan dan menjual sebuah, sehingga 
 Fitur yang diinginkan client yaitu list produk dan penambahan produk ke keranjang, yang selanjutnya akan dilakukan penginputan nama serta alamat dan halaman terakhir akan dituju kepada form konfirmasi yang memberikan info pembayaran serta form untuk mengupload bukti pembayaran, dimana jika sudah mengsubmit, order history user tersebut akan bertambah dan statusnya akan dikelola admin pada admin dashboard.
 
 User juga dapat memantau order history pada halaman order history. Maka jika dapat disimpulkan web e-commerce ini bertujuan untuk menjual produk gadget dengan tampilan elegan dan minimalis serta fitur penopang e-commerce yang simpel dan to the point sehingga user dapat melakukan pembelian secara mandiri, dan Admin juga dapat leluasa melakukan pemantauan order list dan melakukan perubahan status pada order tersebut, admin juga leluasa dalam menambah, mengubah, atau menghapus produk dan user account
+
+## User Manual
+For Guest : [user-manual-guest.pdf](https://github.com/HCI-Group-6/Assignment-4/raw/main/document-spec/user-manual-guest.pdf)
+
+For Admin : [user-manual-admin.pdf](https://github.com/HCI-Group-6/Assignment-4/raw/main/document-spec/user-manual-admin.pdf)
+
+## Record of User Testing
+Video Link  : https://youtu.be/3RWBW8Yfn4Q
+
+Subtitle    : -
+
+## Website Demonstration
+Video Link  : -
+
+## Client Review
+Agreement Letter : -
